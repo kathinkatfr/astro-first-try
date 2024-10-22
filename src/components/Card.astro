@@ -1,0 +1,16 @@
+---
+const header = Astro.props.header;
+const text = Astro.props.text;
+const knap = Astro.props.knap;
+---
+<article>
+<h2>{header}</h2>
+<slot />
+<p>kortere lorem ipsum</p>
+</article>
+
+<style>
+    p{
+        color: royalblue;
+    }
+</style>
